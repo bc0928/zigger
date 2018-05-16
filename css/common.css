@@ -1,0 +1,413 @@
+body {
+    /* overflow-x: hidden; */
+    height: 100%;
+}
+
+body,
+h1,
+h3,
+h4,
+h2,
+h5,
+h6,
+ul,
+ol,
+p,
+fieldset,
+dd,
+dl,
+input,
+textarea,
+option,
+hr,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h3,
+h4,
+h2,
+h5,
+h6,
+b,
+strong {
+    font-weight: normal;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+    display: block;
+    vertical-align: middle;
+}
+
+input {
+    border: none;
+    background: none;
+}
+
+a,
+input {
+    outline: none;
+}
+
+body {
+    font: 12px/150% Arial, "microsoft yahei", "宋体";
+    background: #242424;
+}
+
+/* .clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+} */
+
+.clearfix {}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.border0 {
+    border: none;
+}
+
+.borderb0 {
+    border-bottom: 0 !important;
+}
+
+.fr {
+    float: right !important;
+}
+
+.fl {
+    float: left;
+}
+
+.font26 {
+    font-size: 26px !important;
+}
+
+.font16 {
+    font-size: 16px !important;
+}
+
+/*------------------------------------------ header公共头第一行导航 -------------------------- */
+
+.ztbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 46px;
+    background: #08080a;
+    z-index: 161;
+}
+
+.inner1080 {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.ztbox .tit {
+    float: left;
+    font-size: 14px;
+    height: 46px;
+    line-height: 46px;
+    color: #fff;
+}
+
+.tit .indexicon {
+    width: 28px;
+    height: 24px;
+    display: inline-block;
+    background-position: 0 0;
+    vertical-align: middle;
+}
+
+.tit .qq.indexicon {
+    background: url(../images/index/header-qq-icon.png);
+    background-position: 0 -25px;
+}
+
+.indexicon {
+    background: url("../Images/index/icon.png?v=2") no-repeat;
+    display: inline-block;
+}
+
+.loginafter,
+.headmessage {
+    position: relative;
+    width: 40px;
+    height: 46px;
+    cursor: pointer;
+}
+
+.loginafter .userheadimg {
+    margin: 9px 0 8px 6px;
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.loginafter:hover,
+.headmessage:hover {
+    background: #fff;
+}
+
+.headmessage:hover .indexicon {
+    background-position: 0 -58px;
+}
+
+.userheadimg img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.login-list {
+    width: 118px;
+}
+
+.login-list,
+.headmessage .msglist {
+    position: absolute;
+    right: -1px;
+    top: 40px;
+    margin-top: 6px;
+    padding-top: 1px;
+    background: #fff;
+    border: 1px solid #d2d2d7;
+    z-index: 161;
+    display: none;
+    /* display隐藏菜单 */
+}
+
+.login-list ul {
+    margin: 4px;
+}
+
+.login-list li {
+    margin: 5px 0;
+}
+
+.login-list li a {
+    display: block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    color: #32323c;
+    transition: all ease .2s;
+    -webkit-transition: all ease .2s;
+    overflow: hidden;
+}
+
+.headmessage {
+    margin: 0 5px;
+}
+
+.headmessage .indexicon {
+    margin: 12px 0 0 8px;
+    width: 30px;
+    height: 26px;
+    background-position: -30px -58px;
+}
+
+.headmessage .indexicon .summsg {
+    position: absolute;
+    top: 8px;
+    left: 28px;
+    width: 10px;
+    height: 10px;
+    display: block;
+}
+
+.headmessage .indexicon .summsg,
+.msglistcon .msgnum,
+.headshopping b {
+    background: #ff6478;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.headmessage .msglistcon {
+    position: relative;
+    display: block;
+    margin: 5px 10px;
+    width: 94px;
+    height: 36px;
+    line-height: 36px;
+    color: #32323c;
+    font-size: 14px;
+    text-align: center;
+}
+
+.msglistcon .msgnum {
+    position: absolute;
+    top: 6px;
+    left: 78px;
+    line-height: 22px;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+}
+
+.headshopping {
+    position: relative;
+    margin: 0 0 0 15px;
+    height: 46px;
+}
+
+.headshopping .indexicon {
+    margin-top: 10px;
+    background-position: 4px -25px;
+    width: 34px;
+    height: 28px;
+}
+
+.headshopping b {
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    display: none;
+}
+
+.indexseekcon {
+    margin-top: 10px;
+    width: 170px;
+    height: 28px;
+    line-height: 28px;
+    background: #fff;
+    border-radius: 15px;
+    color: #64646e;
+}
+
+.indexseekcon .indexicon {
+    width: 32px;
+    height: 28px;
+    background-position: 8px -82px;
+    vertical-align: middle;
+}
+
+.indexseek {
+    padding-right: 6px;
+    width: 128px;
+    height: 28px;
+}
+
+/* ---------------------------------nav------------------------ */
+
+.nav {
+    position: fixed;
+    top: 46px;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ebeced;
+    z-index: 160;
+}
+
+.navlist .navlistli {
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+}
+
+.navlistfont {
+    padding: 0 15px;
+    font-size: 14px;
+    color: #64646e;
+}
+
+.navlist .navlistliline {
+    margin: 20px 15px;
+    height: 20px;
+}
+
+.navlistliline,
+.login-line {
+    width: 1px;
+    height: 12px;
+    margin: 7px 12px;
+    background: #96969b;
+}
+
+.navdesignbtn .navlistfont {
+    display: block;
+    padding-right: 0;
+    width: 76px;
+    height: 74px;
+    text-indent: -9999px;
+    background-position: 23px -443px;
+}
+
+.navlistfont:hover {
+    background-position: 23px -522px;
+    color: #32323c;
+}
+
+.navsecondlist {
+    position: absolute;
+    top: 50px;
+    left: 3px;
+    padding: 6px 0;
+    background-color: #fff;
+    width: 100px;
+    border: 1px solid #d2d2d7;
+    border-top: 0;
+    display: none;
+    /* 二级菜单 */
+}
+
+.navsecondlist .indexicon {
+    position: absolute;
+    top: -7px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-position: 0 -216px;
+}
+
+.navsecondlist .navsecondlistc {
+    display: block;
+    padding: 0 20px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #64646c;
+}

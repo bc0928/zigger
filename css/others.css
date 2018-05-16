@@ -1,0 +1,180 @@
+/* ---------------index.html 版心内容----------------- */
+
+#main-content {
+    padding-bottom: 40px;
+    min-width: 1180px;
+    /* background: #fafafc; */
+    background: #fff;
+}
+
+.indexbanner {
+    position: relative;
+    margin-top: 107px;
+    min-width: 1080px;
+}
+
+.inner100 {
+    width: 100%;
+}
+
+.splitview {
+    height: 530px;
+    min-height: 450px;
+    max-height: 550px;
+    overflow: hidden;
+    background: linear-gradient(-25deg, #0096a0 50%, #1eb4be 100%);
+    background: -webkit-linear-gradient(115deg, #0096a0 50%, #1eb4be 100%);
+    background: #0096a0;
+}
+
+.splitview * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.indexbanner .bannerdes {
+    position: absolute;
+    bottom: 196px;
+    left: 50%;
+    margin-left: -312px;
+    display: block;
+    width: 625px;
+    height: 90px;
+}
+
+.splitview ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+}
+
+.splitview ul li.mermaid {
+    background: #00b2a5;
+}
+
+.splitview ul li {
+    position: relative;
+    float: left;
+    margin: -5% 0;
+    padding: 0;
+    width: 20%;
+    height: 130%;
+    overflow: hidden;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    box-shadow: 0 0 35px rgba(0, 0, 0, .5);
+    background-color: #f3f3f3;
+}
+
+.splitview ul li:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #002832;
+    opacity: .4;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.splitview ul li:hover:after {
+    display: none;
+}
+
+.splitview ul li img {
+    padding: 0 0 25% 0;
+    width: auto;
+    height: 100%;
+    transform: rotate(-15deg) translateX(-24%);
+    -webkit-transform: rotate(-15deg) translateX(-24%);
+    transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+}
+
+.splitview ul li:hover img {
+    -webkit-transform: rotate(-15deg) translateX(-24%) scale(1.05);
+    transform: rotate(-15deg) translateX(-24%) scale(1.05);
+}
+
+.indexbtncon {
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    margin-left: -110px;
+    width: 220px;
+    border-radius: 22px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.indexbtncon .indexbannerbtn {
+    display: block;
+    width: 50%;
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    background: #f3efee;
+    color: #96969b;
+}
+
+.bordergray {
+    border-right: 1px solid #d2d2d7;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.indexbtncon .indexbannerbtn:hover {
+    background: #ff6478;
+    color: #fff;
+    box-shadow: 2px 8px 9px -6px #bc4958 inset;
+}
+
+.indexprotit {
+    margin: 80px 0 30px;
+    color: #32323c;
+    text-align: center;
+}
+
+.indexprotit span {
+    display: block;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.hotsub {
+    margin: 0 12px;
+}
+
+.hotsub .hotsubli {
+    float: left;
+    margin: 0 10px;
+    position: relative;
+}
+
+.hotsubli .hotsubimg {
+    width: 256px;
+    height: 256px;
+    display: block;
+}
+
+.hotsubdes {
+    position: absolute;
+    bottom: 0;
+    padding: 0 10px;
+    width: 236px;
+    /* height: 0; */
+    background: rgba(50, 50, 60, .7);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    overflow: hidden;
+    transition: all linear 150ms;
+    -webkit-transition: all linear 150ms;
+}
