@@ -1,0 +1,35 @@
+$ff3250 :#ff3250;
+.weepr42 {
+    width: 450px;
+    margin: 0 auto;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+// 登录，注册底部
+.sm-footer {
+    padding-top: 30px;
+    color: #64646e;
+    background: #242424;
+    min-width: 1080px;
+}
+
+.sm-footer-link {
+    text-align: center;
+    color: #cacaca;
+    a {
+        color: #cacaca;
+        transition: all ease .2s;
+        -webkit-transition: all ease .2s;
+    }
+}
+
+.sm-footer-about {
+    text-align: center;
+    color: #cacaca;
+    padding-top: 6px;
+    padding-bottom: 40px;
+}
