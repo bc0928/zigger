@@ -1,0 +1,24 @@
+@charset "UTF-8";
+#main-contentdl {
+  padding-bottom: 40px;
+  background: #fafafc;
+  min-width: 1080px; }
+
+/*-------------------span标签-----------------------------*/
+.logreg-box .tip {
+  border: 1px solid #6bc7f0;
+  color: #74797d;
+  background-color: #e8f5fd;
+  visibility: visible; }
+
+/*-------------------正常的时候隐藏---------------------------------*/
+.logreg-box .tip.hide {
+  visibility: hidden; }
+
+/*span错误的时候字体变红*/
+.logreg-box .tip.error {
+  color: red; }
+
+/*span正常的时候*/
+.logreg-box .tip.default {
+  color: #ABABAB; }

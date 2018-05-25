@@ -828,7 +828,7 @@ table {
 }
 
 .pub-right-bar .wallicon {
-    background: url('../Images/shop/wallicon.png') no-repeat
+    background: url('../images/index/wallicon.png') no-repeat
 }
 
 .pub-right-bar .wallicon {}
@@ -856,7 +856,7 @@ table {
     display: inline-block;
     width: 22px;
     height: 20px;
-    background: url(../Images/weixin.png) no-repeat;
+    background: url(../images/index/weixin.png) no-repeat;
     color: #64646e;
     vertical-align: middle;
     background-size: 90%;
@@ -2504,11 +2504,11 @@ input[type="radio"] {
 }
 
 .toptip-right {
-    background: url(../images/toptip-righticon.png) no-repeat center center
+    background: url(../images/index/toptip-righticon.png) no-repeat center center
 }
 
 .toptip-wrong {
-    background: url(../images/toptip-wrongicon.png) no-repeat center center
+    background: url(../images/index/toptip-wrongicon.png) no-repeat center center
 }
 
 .toptip-box span {
@@ -4394,7 +4394,7 @@ input[type="radio"] {
     position: absolute;
     left: 76px;
     bottom: -20px;
-    background: url('../images/tshirt/detail/line.png') no-repeat center center;
+    background: url('../images/index/line.png') no-repeat center center;
     content: "";
     width: 176px;
     height: 3px
@@ -4644,7 +4644,7 @@ input[type="radio"] {
 
 .checkbtn .checkbtncon {
     padding-left: 26px;
-    background: url("../images/tshirt/detail/fangdajing.png") no-repeat;
+    background: url("../images/index/fangdajing.png") no-repeat;
     font-size: 18px;
     color: #fff
 }
@@ -4755,7 +4755,7 @@ input[type="radio"] {
 }
 
 .dbxmarr {
-    background: url(../images/dbxmarr.png) no-repeat right center
+    background: url(../images/index/dbxmarr.png) no-repeat right center
 }
 
 .sevenDetapageul li i {
@@ -4782,7 +4782,7 @@ input[type="radio"] {
 
 .sevenline {
     height: 1px;
-    background: url(../images/sevenline.png) repeat-x;
+    background: url(../images/index/sevenline.png) repeat-x;
     width: 100% !important
 }
 
@@ -4792,7 +4792,7 @@ input[type="radio"] {
     height: 40px;
     position: fixed;
     bottom: 20px;
-    background: rgba(0, 0, 0, .5) url(../images/xqtopimg.png);
+    background: rgba(0, 0, 0, .5) url(../images/index/xqtopimg.png);
     box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
     border-radius: 4px;
     border: 1px solid #7c7c7c;
@@ -4836,7 +4836,7 @@ input[type="radio"] {
 .numlbtn {
     float: left;
     display: block;
-    background: url(../images/numb-lowbg.png) no-repeat center top;
+    background: url(../images/index/numb-lowbg.png) no-repeat center top;
     width: 22px;
     height: 22px
 }
@@ -4844,33 +4844,33 @@ input[type="radio"] {
 .numrbtn {
     float: right;
     display: block;
-    background: url(../images/numb-addbg.png) no-repeat center top;
+    background: url(../images/index/numb-addbg.png) no-repeat center top;
     width: 22px;
     height: 22px
 }
 
 .DisDe {
-    background: url(../images/numb-lowhsbg.png) no-repeat center center
+    background: url(../images/index/numb-lowhsbg.png) no-repeat center center
 }
 
 .DisIn {
-    background: url(../images/numb-addhsbg.png) no-repeat center center
+    background: url(../images/index/numb-addhsbg.png) no-repeat center center
 }
 
 .numlbtn:hover {
-    background: url(../images/numb-lowbg.png) no-repeat left -22px
+    background: url(../images/index/numb-lowbg.png) no-repeat left -22px
 }
 
 .numrbtn:hover {
-    background: url(../images/numb-addbg.png) no-repeat left -22px
+    background: url(../images/index/numb-addbg.png) no-repeat left -22px
 }
 
 .DisDe:hover {
-    background: url(../images/numb-lowhsbg.png) no-repeat center center !important
+    background: url(../images/index/numb-lowhsbg.png) no-repeat center center !important
 }
 
 .DisIn:hover {
-    background: url(../images/numb-addhsbg.png) no-repeat center center !important
+    background: url(../images/index/numb-addhsbg.png) no-repeat center center !important
 }
 
 .sec-tab {
@@ -4946,7 +4946,7 @@ input[type="radio"] {
     border-radius: 4px;
     border: 1px solid #e6e6e6;
     margin: 0 auto;
-    background: url(../images/shopc-check-boxbg.png) no-repeat 30px center;
+    background: url(../images/index/shopc-check-boxbg.png) no-repeat 30px center;
     transition: all ease .2s;
     -webkit-transition: all ease .2s
 }
@@ -5008,7 +5008,7 @@ input[type="radio"] {
     display: block;
     height: 24px;
     width: 24px;
-    background: url(../images/deltbtnn.png) no-repeat center top
+    background: url(../images/index/deltbtnn.png) no-repeat center top
 }
 
 .shopc-zz {
@@ -5166,7 +5166,7 @@ input[type="radio"] {
     width: 410px;
     height: 460px;
     margin: 0 auto;
-    background: url(../images/nodficon.png) no-repeat center top
+    background: url(../images/index/nodficon.png) no-repeat center top
 }
 
 .zfsucs-con-img {
@@ -5174,7 +5174,7 @@ input[type="radio"] {
     width: 288px;
     height: 288px;
     padding: 5px;
-    background: url(../images/zfsucs-con-imgkk.png) no-repeat left center
+    background: url(../images/index/zfsucs-con-imgkk.png) no-repeat left center
 }
 
 .zfsucs-con>p {
@@ -5182,7 +5182,7 @@ input[type="radio"] {
     width: 270px;
     height: 40px;
     line-height: 40px;
-    background: #f2f2f2 url(../images/smallwx.png) no-repeat 10px center;
+    background: #f2f2f2 url(../images/index/smallwx.png) no-repeat 10px center;
     text-indent: 44px;
     border-radius: 10px;
     box-shadow: .5px .866px 1px 0 rgba(200, 200, 200, .392), inset 0 1px 3px 0 rgba(0, 0, 0, .1);
@@ -5199,13 +5199,13 @@ input[type="radio"] {
 
 .zfsucs-con-tip span {
     padding-left: 10px;
-    background: url(../images/ponit-tip.png) no-repeat left center
+    background: url(../images/index/ponit-tip.png) no-repeat left center
 }
 
 .fcDiv {
     width: 288px;
     height: 288px;
-    background: url(../images/lwmap.png) no-repeat center center;
+    background: url(../images/index/lwmap.png) no-repeat center center;
     position: absolute;
     z-index: -10
 }
@@ -5236,7 +5236,7 @@ input[type="radio"] {
     height: 70px;
     margin: 0 auto;
     margin-top: 40px;
-    background: url(../images/scsesiconbig.png) no-repeat center center;
+    background: url(../images/index/scsesiconbig.png) no-repeat center center;
     transition: all ease .3s;
     -webkit-transition: all ease .3s
 }
@@ -5359,7 +5359,7 @@ input[type="radio"] {
     height: 136px;
     width: 136px;
     padding: 8px;
-    background: url(../images/shewmbg.png) no-repeat center center;
+    background: url(../images/index/shewmbg.png) no-repeat center center;
     position: absolute;
     margin-left: -58px;
     margin-top: 0
@@ -5397,7 +5397,7 @@ input[type="radio"] {
 }
 
 .jiathis_style_32x32 .jtico {
-    background-image: url(../images/jiathis_ico_32x32n.png) !important
+    background-image: url(../images/index/jiathis_ico_32x32n.png) !important
 }
 
 .mian-cent-tab li {
@@ -5443,7 +5443,7 @@ input[type="radio"] {
     height: 50px;
     font-size: 14px;
     line-height: 50px;
-    background-image: url(../images/man-icon.png);
+    background-image: url(../images/index/man-icon.png);
     background-position: 10px top;
     background-repeat: no-repeat;
     text-indent: 52px
@@ -5461,7 +5461,7 @@ input[type="radio"] {
 
 .sidebar h3 a:hover {
     background-color: #ff6478;
-    background-image: url(../images/man-icon.png);
+    background-image: url(../images/index/man-icon.png);
     background-position: 10px -50px;
     color: #fff;
     background-repeat: no-repeat
@@ -5478,7 +5478,7 @@ input[type="radio"] {
     padding-top: 3px;
     margin-top: 48px;
     width: 180px;
-    background: url(../images/sidebar-topbg.png) no-repeat center top;
+    background: url(../images/index/sidebar-topbg.png) no-repeat center top;
     position: absolute;
     margin-left: -1px
 }
@@ -5502,7 +5502,7 @@ input[type="radio"] {
 .sidebar-bottom ul li a.active {
     background-color: #ff6478;
     color: #fff;
-    background-image: url(../images/sidebar-bottomarbg.png);
+    background-image: url(../images/index/sidebar-bottomarbg.png);
     background-repeat: no-repeat;
     background-position: 150px center
 }
@@ -5510,7 +5510,7 @@ input[type="radio"] {
 .sidebar-bottom ul li a:hover {
     background-color: #ff6478;
     color: #fff;
-    background-image: url(../images/sidebar-bottomarbg.png);
+    background-image: url(../images/index/sidebar-bottomarbg.png);
     background-repeat: no-repeat;
     background-position: 150px center
 }
@@ -5633,7 +5633,7 @@ input[type="radio"] {
     margin-top: 176px;
     margin-left: 8px;
     color: #64646e;
-    background: url(../images/mian-cent-timeicon.png) no-repeat left center;
+    background: url(../images/index/mian-cent-timeicon.png) no-repeat left center;
     padding-left: 16px
 }
 
@@ -5684,7 +5684,7 @@ input[type="radio"] {
     width: 18px;
     height: 18px;
     position: absolute;
-    background: url(../images/penicon.png) no-repeat center 0;
+    background: url(../images/index/penicon.png) no-repeat center 0;
     margin-left: 164px;
     margin-top: -19px;
     transition: all ease .2s;
@@ -5715,7 +5715,7 @@ input[type="radio"] {
     width: 18px;
     height: 18px;
     position: absolute;
-    background: url(../images/quedcon.png) no-repeat center center;
+    background: url(../images/index/quedcon.png) no-repeat center center;
     margin-left: 164px;
     margin-top: -20px
 }
@@ -5914,7 +5914,7 @@ input[type="radio"] {
 
 .perconhea span {
     padding-left: 10px;
-    background: url(../images/topzs.png) no-repeat left center
+    background: url(../images/index/topzs.png) no-repeat left center
 }
 
 .percon-table-Div table {
@@ -6086,7 +6086,7 @@ input[type="radio"] {
     right: 0;
     width: 24px;
     height: 24px;
-    background: url(../images/aresactive.png) no-repeat;
+    background: url(../images/index/aresactive.png) no-repeat;
     display: none
 }
 
@@ -6095,7 +6095,7 @@ input[type="radio"] {
     text-align: center;
     width: 110px;
     height: 95px;
-    background: url(../images/qhqicon.png?v=2) no-repeat top left
+    background: url(../images/index/qhqicon.png?v=2) no-repeat top left
 }
 
 .qhqDiv .couponmoney {
@@ -6110,11 +6110,11 @@ input[type="radio"] {
 }
 
 .keqhq {
-    background: url(../images/qhqicon.png?v=2) no-repeat top left
+    background: url(../images/index/qhqicon.png?v=2) no-repeat top left
 }
 
 .gqqhq {
-    background: url(../images/gqqicon.png?v=2) no-repeat top left
+    background: url(../images/index/gqqicon.png?v=2) no-repeat top left
 }
 
 .qhqdt {
@@ -6220,7 +6220,7 @@ input[type="radio"] {
     transition: all ease .2s;
     -webkit-transition: all ease .2s;
     padding-right: 10px;
-    background: url(../images/mrbtn.png) no-repeat right 4px
+    background: url(../images/index/mrbtn.png) no-repeat right 4px
 }
 
 .newckbtn:link {
@@ -6632,7 +6632,7 @@ input[type="radio"] {
 .upnomarl {
     width: 94px;
     height: 94px;
-    background: url(../images/upnomarlicon.png) no-repeat center center;
+    background: url(../images/index/upnomarlicon.png) no-repeat center center;
     margin: 0 auto;
     margin-top: 70px
 }
@@ -6653,7 +6653,7 @@ input[type="radio"] {
 
 .upicon {
     float: left;
-    background: url(../images/smlcom.png) no-repeat 12px center;
+    background: url(../images/index/smlcom.png) no-repeat 12px center;
     width: 100%;
     text-indent: 22px
 }
@@ -6692,7 +6692,7 @@ input[type="radio"] {
 
 .logreg-logo {
     height: 140px;
-    background: url(../images/bigblogo.png) no-repeat center center;
+    background: url(../images/index/bigblogo.png) no-repeat center center;
     overflow: hidden
 }
 
@@ -7869,7 +7869,7 @@ aboutup {
 
 .aboutusfont b {
     padding: 20px;
-    background: url(../images/oneponit.png) no-repeat center center
+    background: url(../images/index/oneponit.png) no-repeat center center
 }
 
 .ljzgbleft {
@@ -7991,7 +7991,7 @@ aboutup {
     line-height: 54px;
     border-bottom: 1px solid #e6e6e6;
     padding-left: 14px;
-    background: url(../images/pzhicon.png) no-repeat left center
+    background: url(../images/index/pzhicon.png) no-repeat left center
 }
 
 .pzlicon {
@@ -8062,7 +8062,7 @@ aboutup {
     position: absolute;
     bottom: 30px;
     z-index: 6;
-    background: url(../images/bbtiocn.png) no-repeat center center;
+    background: url(../images/index/bbtiocn.png) no-repeat center center;
     animation: fadeInUpzg .6s cubic-bezier(.445, .05, .55, .95) .2s infinite alternate;
     -moz-animation: fadeInUpzg .6s cubic-bezier(.445, .05, .55, .95) .2s infinite alternate;
     -webkit-animation: fadeInUpzg .6s cubic-bezier(.445, .05, .55, .95) .2s infinite alternate;
@@ -8123,7 +8123,7 @@ aboutup {
 }
 
 .vmrbg {
-    background-image: url(../images/vmrbg-news2.jpg);
+    background-image: url(../images/index/vmrbg-news2.jpg);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -8233,7 +8233,7 @@ aboutup {
 
 .inwbtn span {
     padding-right: 24px;
-    background: url(../images/wbaraw.png) no-repeat right center
+    background: url(../images/index/wbaraw.png) no-repeat right center
 }
 
 .inwbtn:hover {
@@ -8358,7 +8358,7 @@ aboutup {
     width: 64px;
     height: 62px;
     cursor: pointer;
-    background: url(../images/bficon.png) no-repeat center center;
+    background: url(../images/index/bficon.png) no-repeat center center;
     position: absolute;
     top: 70px;
     left: 50%;
@@ -8444,7 +8444,7 @@ aboutup {
     width: 900px;
     height: 100vh;
     min-height: 600px;
-    background: url(../images/txueimg.jpg) no-repeat right top;
+    background: url(../images/index/txueimg.jpg) no-repeat right top;
     position: absolute;
     z-index: 11;
     width: 100%;
@@ -8501,7 +8501,7 @@ aboutup {
 .shuline01 {
     height: 240px;
     width: 1px;
-    background: url(../images/shuline.png) no-repeat center center;
+    background: url(../images/index/shuline.png) no-repeat center center;
     position: absolute;
     top: -30px;
     left: 128px
@@ -8510,7 +8510,7 @@ aboutup {
 .shuline02 {
     height: 240px;
     width: 1px;
-    background: url(../images/shuline.png) no-repeat center center;
+    background: url(../images/index/shuline.png) no-repeat center center;
     position: absolute;
     top: -30px;
     left: 256px
@@ -8519,7 +8519,7 @@ aboutup {
 .henline {
     height: 1px;
     width: 360px;
-    background: url(../images/henline.png) no-repeat center center;
+    background: url(../images/index/henline.png) no-repeat center center;
     position: absolute;
     top: 84px;
     left: 30px
@@ -8545,7 +8545,7 @@ aboutup {
 
 .inbbtn span {
     padding-right: 24px;
-    background: url(../images/bbaraw.png) no-repeat right center
+    background: url(../images/index/bbaraw.png) no-repeat right center
 }
 
 .inbbtn:hover {
@@ -8599,23 +8599,23 @@ aboutup {
 }
 
 .yjdzicon {
-    background: url(../images/yjdzicon.png) no-repeat center top
+    background: url(../images/index/yjdzicon.png) no-repeat center top
 }
 
 .shmlicon {
-    background: url(../images/shmlicon.png) no-repeat center top
+    background: url(../images/index/shmlicon.png) no-repeat center top
 }
 
 .jrfricon {
-    background: url(../images/jrfricon.png) no-repeat center top
+    background: url(../images/index/jrfricon.png) no-repeat center top
 }
 
 .cfbxicon {
-    background: url(../images/cfbxicon.png) no-repeat center top
+    background: url(../images/index/cfbxicon.png) no-repeat center top
 }
 
 .kjyhicon {
-    background: url(../images/kjyhicon.png) no-repeat center top
+    background: url(../images/index/kjyhicon.png) no-repeat center top
 }
 
 .sectionScdz {
@@ -8686,15 +8686,15 @@ aboutup {
 }
 
 .indexfricon {
-    background: url(../images/indexfricon.png) no-repeat center center
+    background: url(../images/index/indexfricon.png) no-repeat center center
 }
 
 .indexonicon {
-    background: url(../images/indexonicon.png) no-repeat center center
+    background: url(../images/index/indexonicon.png) no-repeat center center
 }
 
 .indexthicon {
-    background: url(../images/indexthicon.png) no-repeat center center
+    background: url(../images/index/indexthicon.png) no-repeat center center
 }
 
 .tkvediorightcon h3 {
@@ -8749,6 +8749,43 @@ aboutup {
     position: relative
 }
 
+.tool {
+    display: none;
+    width: 125px;
+    height: 125px;
+    background-color: #ccc;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    position: absolute;
+    cursor: pointer;
+    z-index: 352;
+}
+
+.detailyemBigImg .active {
+    display: block;
+}
+
+.detailyemimgul .active {
+    display: block;
+}
+
+.detailyemBigImg {
+    display: none;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: absolute;
+    left: 620px;
+    top: 0px;
+    border: 1px solid #ccc;
+    z-index: 150;
+    margin-top:60px;
+}
+.detailyemBigImg img{
+    display:none;
+    position:absolute;
+}
+
 .detailyemimg {
     position: absolute;
     left: 20px;
@@ -8761,13 +8798,16 @@ aboutup {
     height: 500px;
     width: 500px;
     overflow: hidden;
-    margin: 60px auto
+    margin: 60px auto;
+    position: relative;
+    left: 0;
 }
 
 .detailyemimgul>li {
     height: 500px;
     width: 500px;
-    background: #f5f5f5
+    background: #f5f5f5;
+    display:none;
 }
 
 .kzwiimg {
@@ -12040,7 +12080,7 @@ aboutup {
 }
 
 .zhijianicon {
-    background: url("../Images/zhijian.png") no-repeat
+    background: url("../images/index/zhijian.png") no-repeat
 }
 
 .zclose {
@@ -13405,7 +13445,7 @@ aboutup {
 }
 
 .detailshare {
-    background: url('../Images/detailshare.png') no-repeat
+    background: url('../images/index/detailshare.png') no-repeat
 }
 
 .shareprodetails {

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>zigger</title>
     <link rel="stylesheet" type="text/css" href="../css/common.css" />
-    <link rel="stylesheet"  type="text/css" href="../css/others.css" />
+    <link rel="stylesheet" type="text/css" href="../css/others.css" />
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
-    
-    <!-- <link rel="stylesheet" type="text/css" href="../libs/swiper-4.2.6.min.css"/> -->
+    <!-- <link rel="stylesheet" type="text/css" href="../src/libs/swiper.min.css" /> -->
 </head>
+
 <body>
     <!-- 导航 -->
     <div class="ztbox">
@@ -24,26 +25,36 @@
                 <!-- 登录后此处隐藏 -->
                 <ul class="fr loginbox">
                     <li class="login-zcdl">
-                        <a href="/Account/Login?ReturnUrl=%2F">登录</a>
+                        <a href="login.html">登录</a>
                     </li>
                     <li class="login-line"></li>
                     <li class="login-zcdl">
-                        <a href="/Account/SignUp?ReturnUrl=%2F">注册</a>
+                        <a href="regist.html">注册</a>
                     </li>
                 </ul>
                 <!-- 登录头像处 -->
                 <div class="loginafter fr">
                     <a class="userheadimg" href="###">
-                        <img src="../images/index/mrimg.png"/>
+                        <img class="noLogintx" src="../images/index/mrimg.png" />
+                        <img class="hasLogintx" src="../images/index/tx2.png" />
+                        
                     </a>
                     <!--用户头像下的隐藏菜单 -->
                     <div class="login-list">
-                       <ul>
-                           <li><a class="userName" href="###">菠菜</a></li>
-                           <li><a href="###">我的余额</a></li>
-                           <li><a href="###">自己买的</a></li>
-                           <li><a href="###">退出</a></li>
-                       </ul>
+                        <ul>
+                            <li>
+                                <a class="userName" href="###">菠菜</a>
+                            </li>
+                            <li>
+                                <a href="###">我的余额</a>
+                            </li>
+                            <li>
+                                <a href="###">自己买的</a>
+                            </li>
+                            <li>
+                                <a class="tuichu" href="###">退出</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -56,8 +67,8 @@
                 <ul class="msglist">
                     <li>
                         <a class="msglistcon" href="###">
-                        系统消息
-                        <span class="msgnum" style="display : none">0</span>
+                            系统消息
+                            <span class="msgnum" style="display : none">0</span>
                         </a>
                     </li>
                     <li>
@@ -76,7 +87,7 @@
             <!-- 搜索框区域 -->
             <div class="indexseekcon fr">
                 <a class="indexicon" href="###"></a>
-                <input class="indexseek" type="text" maxlength="100" autocomplete="off" placeholder="关键字"/>
+                <input class="indexseek" type="text" maxlength="100" autocomplete="off" placeholder="关键字" />
             </div>
             ::after
         </div>
@@ -84,12 +95,12 @@
     <!-- nav -->
     <div class="nav">
         <div class="inner1080 clearfix">
-            <a class="hlogo fl" href="/">
-                <img src="../images/index/hlogo.png" alt="自个logo"/>
+            <a class="hlogo fl" href="http://localhost:81/bcjs/zigger_wamp2/html/index.html">
+                <img src="../images/index/hlogo.png" alt="自个logo" />
             </a>
             <ul class="navlist fr">
                 <li class="navlistli">
-                    <a class="navlistfont" href="###">
+                    <a class="navlistfont" href="proList.html">
                         T恤
                     </a>
                 </li>
@@ -169,34 +180,34 @@
                 <ul>
                     <li class="mermaid">
                         <a href="###">
-                            <img src="../images/index/indexbanner1.jpg" alt="自个广告位">
+                            <img src="http://storage.zigeer.com/UploadFile/Zigeer/CMS/Source/20180301/Old/123.59.57.85$20180313143321184867250.jpg" alt="自个广告位">
                         </a>
                     </li>
                     <li class="mermaid">
                         <a href="###">
-                            <img src="../images/index/indexbanner2.jpg" alt="自个广告位">
+                            <img src="http://storage.zigeer.com/UploadFile/Zigeer/CMS/Source/20180301/Old/123.59.57.85$20180313143331200290175.jpg" alt="自个广告位">
                         </a>
                     </li>
                     <li class="mermaid">
                         <a href="###">
-                            <img src="../images/index/indexbanner3.jpg" alt="自个广告位">
+                            <img src="http://storage.zigeer.com/UploadFile/Zigeer/CMS/Source/20180301/Old/123.59.57.85$20180313143338231465841.jpg" alt="自个广告位">
                         </a>
                     </li>
                     <li class="mermaid">
                         <a href="###">
-                            <img src="../images/index/indexbanner4.jpg" alt="自个广告位">
+                            <img src="http://storage.zigeer.com/UploadFile/Zigeer/CMS/Source/20180301/Old/123.59.57.85$20180313153736606384384.jpg" alt="自个广告位">
                         </a>
                     </li>
                     <li class="mermaid">
                         <a href="###">
-                            <img src="../images/index/indexbanner5.jpg" alt="自个广告位">
+                            <img src="http://storage.zigeer.com/UploadFile/Zigeer/CMS/Source/20180301/Old/123.59.57.85$20180313153800497434461.jpg" alt="自个广告位">
                         </a>
                     </li>
                 </ul>
 
             </div>
-            <img class="bannerdes" src="../images/index/bannerdes.png" alt="选你喜欢创造唯一"/>
-            <!-- banner按钮 -->
+            <img class="bannerdes" src="../images/index/bannerdes.png" alt="选你喜欢创造唯一" />
+            <!-- banner上悬浮按钮 -->
             <div class="indexbtncon clearfix">
                 <a class="fl indexbannerbtn bordergray" href="###">立即购买</a>
                 <a class="fl indexbannerbtn" href="###">开始设计</a>
@@ -210,7 +221,8 @@
             <ul class="hotsub clearfix">
                 <li class="hotsubli">
                     <a href="###">
-                        <img class="hotsubimg" src="../images/index/host1.jpg" alt="自个热门专题">
+                        <img class="hotsubimg" src="http://storage.zigeer.com/UploadFile/Zigeer/CMS/Source/20180401/Old/123.59.57.85$2018040394616081138424.jpg"
+                            alt="自个热门专题">
                         <div class="hotsubdes">
                             <p class="hotsubp">『喵魂』程序员系列T恤</p>
                         </div>
@@ -218,17 +230,29 @@
                 </li>
                 <li class="hotsubli">
                     <a href="###">
-                        <img class="hotsubimg" src="../images/index/host2.jpg" alt="自个热门专题">
+                        <img class="hotsubimg" src="http://storage.zigeer.com/UploadFile/Zigeer/CMS/Source/20180301/Old/123.59.57.85$20180313143459434512946.jpg"
+                            alt="自个热门专题">
+                        <div class="hotsubdes">
+                            <p class="hotsubp">『喵魂』程序员系列T恤</p>
+                        </div>
                     </a>
                 </li>
                 <li class="hotsubli">
                     <a href="###">
-                        <img class="hotsubimg" src="../images/index/host3.jpg" alt="自个热门专题">
+                        <img class="hotsubimg" src="http://storage.zigeer.com/UploadFile/Zigeer/CMS/Source/20180301/Old/123.59.57.85$20180313143504450835870.jpg"
+                            alt="自个热门专题">
+                        <div class="hotsubdes">
+                            <p class="hotsubp">『喵魂』程序员系列T恤</p>
+                        </div>
                     </a>
                 </li>
                 <li class="hotsubli">
                     <a href="###">
-                        <img class="hotsubimg" src="../images/index/host4.jpg" alt="自个热门专题">
+                        <img class="hotsubimg" src="http://storage2.zigeer.com/UploadFile/Zigeer/CMS/Source/20180316/Old/106.75.98.35$20180328175848852849349.jpg"
+                            alt="自个热门专题">
+                        <div class="hotsubdes">
+                            <p class="hotsubp">『喵魂』程序员系列T恤</p>
+                        </div>
                     </a>
                 </li>
             </ul>
@@ -237,9 +261,11 @@
                 <span class="font16">DESIGNER TOPIC</span>
             </h3>
         </div>
+        
         <div class="designersub">
             <div class="inner1080 swiper-container swiper-container-horizontal">
-                <div class="designersubul swiper-wrapper clearfix"> <!--transform:translate3d(-1800px, 0px, 0px)-->
+                <div class="designersubul swiper-wrapper clearfix">
+                    <!--transform:translate3d(-1800px, 0px, 0px)-->
                     <!-- <div class="designersubli swiper-slide swiper-slide-visible swiper-slide-active" style="width:360px;">
                         <a class="designersubhead" href="###">
                             <img class="designerwallimg" src="../images/index/designerwallimg11.jpg" alt="自个设计师背景"/>
@@ -267,7 +293,7 @@
                             <i class="indexicon arrowleft fr"></i>
                         </a>
                     </div>-->
-                   
+
                 </div>
                 <!-- <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
                     <span class="swiper-pagination-bullet"></span>
@@ -278,8 +304,8 @@
                     <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
                 </div> -->
                 <!-- swiper-button-disabled -->
-                <div class="swiper-button-prev prevBtn"  href="javascript:;"></div>
-                <div class="swiper-button-next" href="javascript:;"></div>
+                <div class="swiper-button-prev prevBtn" href="javascript:;"></div>
+                <div class="swiper-button-next nextBtn" href="javascript:;"></div>
             </div>
             <div class="inner1080">
                 <ul class="hotsub adcon clearfix">
@@ -305,7 +331,7 @@
                 </h3>
                 <!--热销宝贝-->
                 <ul class="hotsellcon clearfix" id="list">
-                    <li class="hotsellconli">
+                    <!-- <li class="hotsellconli">
                         <a href="#javascript" >
                             <img class="hotadimgone" src="../images/index/hotad1.jpg" alt="自个热门推荐宝贝">
                         </a>
@@ -328,354 +354,13 @@
                             </p>
                         </a>
                     </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/128558?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/123.59.57.85$20180517142528872353005-yijiakuan-taopirong.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/106.75.98.35$201805171425315724c701e0f31a7423787e50ab9e97d72c0.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">土司人系列之土司妹妹</span>
-                                <span class="normalmoney fr">¥79.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl">土司人是以土司为主要设计元素的系列卡通文创品牌。</span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/128519?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/106.75.98.35$20180517130437931193789-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/106.75.98.35$20180517130440469d094dab3cdd74bbf909263ec0d63c59d.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">土司人系列之土司宝宝</span>
-                                <span class="normalmoney fr">¥119.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl">土司人是以土司为主要设计元素的系列卡通文创品牌。</span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/128503?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/123.59.57.85$20180517123217282145163-jingdiankuan-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/106.75.98.35$20180517123218226b9b5f707ca7d477db3311e3523dc6735.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">小猪佩奇 社会人短袖</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl">小猪佩奇是一个可爱的但是有些小专横的小猪。她已经五岁了，与她的猪妈妈，猪爸爸，和弟弟乔治生活在一起。社会社会</span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/128496?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/500-500/123.59.57.85$20180517120710684158642.png"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/123.59.57.85$201805171207033095ae88de54c044ac98e8903198698bf58.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">限时&amp;托起你的梦想</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl">托起你的梦想 Hold your dream up zigeer.com by Bruce lee</span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/128494?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/106.75.98.35$20180517120108113784272-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/123.59.57.85$20180517120110199fd530b9eb3d8407cba100d715648b99a.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">燃烧吧脂肪</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl"></span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/127891?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/123.59.57.85$2018051694817383833623-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/123.59.57.85$2018051694841020b44631fee9f54293a00417e8d903badc.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">悟空放空</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl"></span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/127547?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/106.75.98.35$20180515140256263211690-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/123.59.57.85$20180515140257927e2d2a0d47e52405ca134d148978b23ce.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">X光下的小黑宠物恶搞印花</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl"></span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
+                   
                     <li class="hotsellconli hotadimgtwo">
                         <a href="/Angel/AngelShow" >
                             <img class="hotadimgtwoimg" src="../images/index/hotad2.jpg" alt="自个热门推荐宝贝">
                         </a>
                     </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/127440?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/123.59.57.85$20180515104642487232634-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/123.59.57.85$2018051510464381760b423f7da9d4ca4a48bc344ccc744dd.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">情侣装创意夏季短袖体恤个性文艺</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl">与女友相恋了5年，却因为我是潮汕人而遭到其家人的反对，不愿成全我和她，顾及到其家人的情绪，我们非常无奈，故此设计出一件情侣装。406是一种错误反馈，意思是无法被接受。</span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/127437?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/106.75.98.35$20180515104044602303653-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/106.75.98.35$20180515104044758be8999455f7e4617a7272327dc617073.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">程序员单身狗创意个性T恤</span>
-                                <span class="normalmoney fr">¥119.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl">本着一位程序员的身份设计了这一件单身狗T恤，404是一种程序错误，是找不到指定位置资源的一种反馈，非常像一个单身狗的形象。</span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/124600?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180501/Old/123.59.57.85$20180508102623990934572-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180501/Old/106.75.98.35$20180508102628684733f342d628542a588a1669c68edc3e0.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">霾</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl"></span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/124588?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180501/Old/123.59.57.85$20180508100058636989867-jingdiankuan-2.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180501/Old/106.75.98.35$20180508100103311858a5e4b960b4e4b9c1f6a3ae02c8437.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">潮酷薯条</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl"></span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/124466?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180501/Old/106.75.98.35$20180507183423091340251-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180501/Old/123.59.57.85$2018050718342630859b130ca4dcf47b2842c2c844e50b304.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">swag斯凯兹</span>
-                                <span class="normalmoney fr">¥119.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl"></span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/123847?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180501/Old/106.75.98.35$20180504155420096891165-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180501/Old/106.75.98.35$201805041554222511aa1550bcf264c13835e7e066fa748ef.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">天王老子</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl"></span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/123456?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180501/Old/123.59.57.85$20180503141330102112262-gaozhimianPlus-2.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180501/Old/123.59.57.85$20180503141332029497ec5b8945e4f3fa7af0a3df01c8193.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">社会人 小猪佩琪</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl"></span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/123312?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180501/Old/123.59.57.85$2018050382308631438954-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180501/Old/106.75.98.35$2018050382311092f99ff336a3794fd3a069937b62c9c964.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">印花T恤</span>
-                                <span class="normalmoney fr">¥119.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl">回忆有故事的童年</span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/122534?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180416/Old/123.59.57.85$20180425150857636989867-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180416/Old/106.75.98.35$201804251509009694eadbad9b65a45a7b84af5ce2f6466f2.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">云宝宝</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl"></span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/122488?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180416/Old/123.59.57.85$20180425100357932663971-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180416/Old/106.75.98.35$20180425100359216a447755de1e341f0a1b657e7d10f1ef9.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">致敬90坦克</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl">致敬90坦克 致敬青春</span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/122487?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180416/Old/106.75.98.35$20180425100234391995086-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180416/Old/106.75.98.35$20180425100235517aa9c56eda2204605b1906849499e3967.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">致敬90坦克</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl">致敬90坦克 致敬青春</span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-                    <li class="hotsellconli">
-                        <a href="/Product/Detail/122419?aid=24015" >
-                            <em class="hotpro">
-                                <img class="hotproimg hotproimgc" src="http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180416/Old/106.75.98.35$20180424174710849338801-gaozhimianPlus-1.jpg"
-                                    alt="自个热门推荐宝贝">
-                                <img class="hotproimg hotproimgy" src="http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180416/Old/106.75.98.35$20180424174712112266c107bdf794c3cb1e3462a03d66923.jpg"
-                                    alt="自个热门推荐宝贝">
-                            </em>
-                            <p class="normalprtit clearfix">
-                                <span class="normalt fl">致敬90坦克</span>
-                                <span class="normalmoney fr">¥99.00</span>
-                            </p>
-                            <p class="normaldescon clearfix">
-                                <span class="normaldes fl">致敬90坦克 致敬我们悄悄流逝童年</span>
-                                <span class="buybtn fr">立即购买</span>
-                            </p>
-                        </a>
-                    </li>
-            
+                -->
                 </ul>
                 <div class="zxloading borderb0" id="zxloading">
                     <span>正在加载中...</span>
@@ -697,7 +382,7 @@
                     <div class="zigelink">
                         <p class="zigephone">
                             <i class="indexicon"></i>4006-508-550</p>
-                        <a class="zigekefu" href="#javascript" >
+                        <a class="zigekefu" href="#javascript">
                             <i class="indexicon"></i>联系在线客服</a>
                     </div>
                 </div>
@@ -728,7 +413,7 @@
                 <a class="footernavtit" href="#javascript">自个秀</a>
             </li>
             <li class="footerconli fr padding0 ml10">
-                <a href="#javascript" >
+                <a href="#javascript">
                     <img class="footerweima" src="../images/index/weixin.jpg" alt="自个官方微博二维码">
                 </a>
                 <p class="erweimatit">
@@ -744,11 +429,10 @@
                 </p>
             </li>
         </ul>
-        <!-- http://q.url.cn/s/mFFm6Xm -->
         <div class="pub-right-bar" style="display: block;">
             <img src="../images/index/r-bar.gif" alt="" width="" height="">
             <div class="r-bar-qq ab">
-                <a href="#javascript" ></a>
+                <a href="#javascript"></a>
             </div>
             <div class="r-bar-qrcode ab c-p">
                 <div class="right-side-qrcode">
@@ -772,9 +456,34 @@
             </div>
         </div>
     </div>
-
-    <script src="../src/libs/jquery-3.3.1.js"></script>
-    <script src="../src/js/index.js"></script>
-    <script src="../src/libs/swiper-4.2.6.min.js"></script>
+    <script src="../src/libs/require.js"></script>
+    <script>
+        require(["../src/libs/require.config"], function () {
+            require(["mainJs"]);
+            require(["srStart"]);
+        })
+    </script>
+    <!-- <script src="src/libs/swiper.min.js"></script> -->
+    <!-- <script src="../src/libs/jquery-3.3.1.js"></script>
+    <script src="../src/js/index.js"></script> -->
+    <!-- <script>
+        var swiper = new Swiper({
+                el: '.swiper-container',
+                initialSlide: 1,//
+                spaceBetween: 20,
+                slidesPerView: 3,
+                //centeredSlides: true,
+                slideToClickedSlide: true,
+                grabCursor: true,
+                keyboard: {
+                    enabled: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script> -->
 </body>
+
 </html>

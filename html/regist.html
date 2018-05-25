@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>regist注册</title>
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/regist.css" />
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+
+</head>
+
+<body>
+    <!-- 内容 -->
+    <div class="toptip-box">
+        <i></i>
+        <span></span>
+    </div>
+    <div id="main-content">
+        <div class="weepr42">
+            <div class="logreg-logo">
+                <a href="index.html"></a>
+            </div>
+            <form action="/Account/SignUp" id="fmSignUp" method="post">
+                <div class="logreg-box">
+                    <div class="logreg-box-con">
+                        <ul>
+                            <li>
+                                <h2>手机号
+                                    <div class="i-b fr _a" style="font-size:14px;">
+                                        已有账号，
+                                        <span>
+                                            <a href="login.html">直接登录</a>
+                                        </span>
+                                    </div>
+                                </h2>
+                                <div class="logreg-box-con-input">
+                                    <!-- <span class="input-tip">手机号码</span> -->
+                                    <input autocomplete="off" class="numbfd phonenum" id="txtPhone" maxlength="11" name="Phone" 
+                                        type="text" placeholder="手机号码" value="18510649284"/>
+                                </div>
+                                <span class="tip hide"></span>
+                                
+                            </li>
+                            <li>
+                                <h2>短信验证码</h2>
+                                <div class="logreg-box-con-input">
+                                    <input autocomplete="off" class="numbfd" id="txtCaptcha" maxlength="6" name="Captcha" type="text"
+                                         placeholder="6位验证码" value="258456"/>
+                                    <a href="javascript:void(0)" id="yzmbtn" class="get-yzmbtn">获取验证码</a>
+                                </div>
+                                <span class="tip hide"></span>
+                            </li>
+                            
+                            <li>
+                                <h2>密码</h2>
+                                <div class="logreg-box-con-input">
+                                    <input class="numzmsz" id="txtPwd" maxlength="14" name="Pwd" type="password" placeholder="6~14位" value="660928"
+                                    />
+                                </div>
+                                <span class="tip hide"></span>
+                            </li>
+                            <li>
+                                <h2>确认密码</h2>
+                                <div class="logreg-box-con-input">
+                                    <input class="numzmsz" data-val="true" id="txtConfirmPwd" maxlength="14" name="ConfirmPwd"  type="password" placeholder="前后输入一致哦" value="660928"/>
+                                </div>
+                                <span class="tip hide"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="btnSubmit" class="logreg-box-bot mt30">
+                        <a class="zgbigred-btn" href="javascript:void(0)">立即注册</a>
+                    </div>
+                    <div class="other-zc mt20 mb10">
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="sm-footer">
+        <div class="sm-footer-link">
+            <a href="javascript:void(0)">了解自个</a>
+            <span>｜</span>
+            <a href="javascript:void(0)">帮助中心</a>
+            <span>｜</span>
+            <a href="javascript:void(0)">意见反馈</a>
+            <span>｜</span>
+            <a href="javascript:void(0)">免责声明</a>
+        </div>
+        <p class="sm-footer-about">自个科技（北京）有限公司 Copyright©2017. All Rights Reserved.</p>
+    </div>
+    <script src="../src/libs/jquery-3.3.1.js"></script>
+    <script src="../src/js/regist.js"></script>
+
+
+
+</body>
+
+</html>
