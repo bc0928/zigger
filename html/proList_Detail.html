@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
     <meta charset="UTF-8">
     <title>详情</title>
@@ -169,55 +172,24 @@
             </ul>
         </div>
     </div>
-
-
     <div id="main-content">
-
-
-        <input type="hidden" value="FFFFFF" id="colorValue" />
-        <input type="hidden" value="white" id="colorClass" />
-        <input type="hidden" value="11" id="colorId" />
-        <!-- 扫码分享弹框 -->
-        <div class="hdzgbomb-con zgbomb400 indxbomb-con00">
-            <div class="zgbomb-con-hea clearfix">
-                <h2>微信点赞</h2>
-                <a href="javascript:void(0)" class="hdzgbomb-delebtn"></a>
-            </div>
-
-            <div class="hdpurpb">
-                <div class="hdpurpbimg  bmiddle">
-                    <img id="wechatPic" src="" alt="">
-                </div>
-            </div>
-            <p class="hdpurpbfont">
-                <span>打开微信扫一扫，为我点赞吧~</span>
-            </p>
-        </div>
+      
 
         <!-- 上面提示 -->
         <div class="toptip-box">
             <i class="toptip-right"></i>
             <span></span>
         </div>
-
         <!-- 遮罩 -->
         <div class="zgbomb-zz"></div>
-
-
         <!-- 主体 -->
         <div id="main-content" style="background: #fff; padding-bottom: 0;">
             <div class="weepr108 clearfix">
-                <input data-val="true" data-val-number="字段 SkuId 必须是一个数字。" data-val-required="SkuId 字段是必需的。" id="hdSkuId" name="SkuId" type="hidden"
-                    value="1127" />
-                <input data-val="true" data-val-number="字段 Price 必须是一个数字。" data-val-required="Price 字段是必需的。" id="hdPrice" name="Price" type="hidden"
-                    value="119.0000" />
-                <input data-val="true" data-val-number="字段 ProductId 必须是一个数字。" data-val-required="ProductId 字段是必需的。" id="hdProductId" name="ProductId"
-                    type="hidden" value="121145" />
                 <div class="tich60 mb10"></div>
                 <div class="detailyem ">
 
                     <!-- 选择切换 左侧小图 -->
-                    <ul id="show_ul" class="detailyemul wydetailyemul wydetailyemul1">
+                    <!-- <ul id="show_ul" class="detailyemul wydetailyemul wydetailyemul1">
 
                         <li class="active detailyemulpicnom">
                             <img id="sharePic" src="../images/index/123.59.57.85$2018041482534076487510.png" alt="">
@@ -234,10 +206,10 @@
                         <li class="detailyemulpic">
                             <img class="mtimg" src="../images/index/txuebzt.jpg" alt="T恤">
                         </li>
-                    </ul>
+                    </ul> -->
 
                     <!-- 商品图片 -->
-                    <div class="detailyemimg detailymimg-lt">
+                    <!-- <div class="detailyemimg detailymimg-lt">
                         <ul id="smallBox" class="detailyemimgul">
                             <div id="tool" class="tool"></div>
                             <li class="kzwiimg active">
@@ -256,213 +228,19 @@
                                 <img class="mtimgz" src="../images/index/txuebzt.jpg" alt="T恤">
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
 
                     <!-- 放大镜盒子 -->
-                    <div id="bigBox" class="detailyemBigImg">
+                    <!-- <div id="bigBox" class="detailyemBigImg">
                         <img src="../images/index/1.jpg" alt="放大镜图片" class="bigImg active">
                         <img src="../images/index/2.jpg" alt="放大镜图片" class="bigImg">
                         <img src="../images/index/3.jpg" alt="放大镜图片" class="bigImg">
                         <img src="../images/index/4.jpg" alt="放大镜图片" class="bigImg">
                         <img src="../images/index/5.jpg" alt="放大镜图片" class="bigImg">
-                    </div>
-
+                    </div> -->
 
                     <!-- 右侧选择商品样式 数量等区域 -->
-                    <div class="detailyemfont detailyemfont-lt">
-                        <h3 class="tit">
-                            恶爱阿童木
-                        </h3>
-                        <p class="pt10 threec">阿童木</p>
-                        <div class="shareprodetails clearfix">
-                            <a class="likebtn detailshare dzbtn fl" href="javascript:;">3</a>
-                            <div class="sharebtn fl">
-                                <i class="detailshare sharebtnlist"></i>
-                                <div class="sharecon sharedpcon">
-                                    <div class="sharediv clearfix">
-                                        <i class="detailshare"></i>
-                                        <span class="sharetit">分享宝贝</span>
-                                        <!-- cover jiathis -->
-                                    <div class="goods-detail-share wechat-down-share share-component social-share">
-                                        <a class="social-share-icon icon-qzone" href="#javascript"></a>
-                                        <a class="social-share-icon icon-qq" href="#javascript"></a>
-                                        <a class="social-share-icon icon-wechat" href="javascript:">
-                                            <!-- <div class="wechat-qrcode">
-                                                <h4>微信扫一扫：分享</h4>
-                                                <div class="qrcode" title="">
-                                                    <canvas width="100" height="100" style="display: none;"></canvas>
-                                                    <img alt="Scan me!" src="data:image/png;base64,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"
-                                                        style="display: block;">
-                                                </div>
-                                                <div class="help">
-                                                    <p>微信里点“发现”，扫一下</p>
-                                                    <p>二维码便可将本文分享至朋友圈。</p>
-                                                </div>
-                                            </div> -->
-                                        </a>
-                                        <a class="social-share-icon icon-weibo" href="#javascript"></a>
-                                    </div>
-                                        <div class="copylink h-center">复制链接</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="color96969b lineheight22">原创插画 By
-                            <a href="#javascript" class="color41b9fa">玄素文身</a>
-                        </p>
-                        <div class="detailyemgDiv clearfix mt10">
-                            <div class="detailtoux fl mr10">
-                                <a href="#javascript">
-                                    <img src="../images/index/123.59.57.85$20160512215106108233359.jpg" alt=""/>
-                                </a>
-                            </div>
-                            <h4 class="fl">
-                                <a class="color000" href="#" >
-                                    玄素文身
-                                </a>
-                            </h4>
-                            <a class="zggeysx-big-btn fr" href="#">进入店铺</a>
-                        </div>
-
-
-                        <!-- 选择sku -->
-                        <div class="dskubox" style="display: block">
-                            <div class="detailsku mt20">
-
-                                <ul>
-                                    <!-- 面料 -->
-                                    <li class="clearfix">
-                                        <i class="tit fl">面料</i>
-                                        <div class="con fl">
-                                            <ul class="dskuDiv clearfix js-modelbtn jsML">
-                                                <li data-val="gaozhimianPlus" data-id="1049" class="js-gzm-model  ">
-                                                    <span>高支棉</span>
-                                                    <b title="高支棉"></b>
-                                                </li>
-                                                <li data-val="jingdiankuan" data-id="1059" class="js-gzm-model  active">
-                                                    <span>经典款</span>
-                                                    <b title="经典款"></b>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <!-- 颜色 -->
-                                    <li class="clearfix">
-                                        <i class="tit fl">颜色</i>
-                                        <div class="con fl jsColor">
-                                            <div class="detailskucolor white active" title="白色" data-id="11"></div>
-
-
-                                        </div>
-                                    </li>
-                                    <!-- 款式 -->
-                                    <li class="clearfix">
-                                        <i class="tit fl">款式</i>
-                                        <div class="con fl">
-                                            <ul class="dskuDiv clearfix sexSku jsKS">
-                                                <li data-val="1" data-id="1" class="active">
-                                                    <span class="sku-list">男款</span>
-                                                    <b title="男款"></b>
-                                                </li>
-                                                <li data-val="2" data-id="2" class="">
-                                                    <span class="sku-list">女款</span>
-                                                    <b title="女款"></b>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <!-- 尺码 -->
-                                    <li class="clearfix">
-                                        <i class="tit fl">尺码</i>
-                                        <div class="con fl cmDiv">
-                                            <!-- 尺码   根据点击的不同创建li？ -->
-                                            <ul class="dskuDiv sizeSku clearfix wh330 fl">
-                                                <li data-type="size" data-skuid="1127" data-sizeid="1041" data-size="S" class="sku-list sku-liston active">
-                                                    <b></b>
-                                                    165/S
-                                                </li>
-                                                <li data-type="size" data-skuid="1128" data-sizeid="1042" data-size="M" class="sku-list sku-liston ">
-                                                    <b></b>
-                                                    170/M
-                                                </li>
-                                                <li data-type="size" data-skuid="1129" data-sizeid="1043" data-size="L" class="sku-list sku-liston ">
-                                                    <b></b>
-                                                    175/L
-                                                </li>
-                                                <li data-type="size" data-skuid="1130" data-sizeid="1044" data-size="XL" class="sku-list sku-liston ">
-                                                    <b></b>
-                                                    180/XL
-                                                </li>
-                                                <li data-type="size" data-skuid="1131" data-sizeid="10" data-size="XXL" class="sku-list sku-liston ">
-                                                    <b></b>
-                                                    185/XXL
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                        <!-- <input type="hidden" id="SkuIn" value="1127" /> -->
-                                        <!--新增尺码小助手-->
-                                        <!-- <a class="cmxzs clearfix" id="cmxzs">尺码小助手</a> -->
-                                    </li>
-                                    <li class="clearfix">
-                                        <i class="tit fl">单价</i>
-                                        <div class="con fl redmc font16">
-                                            <b id="price" data-value="119.0000"> ¥119.00</b>
-                                        </div>
-                                    </li>
-                                    <li class="salesdethauto mb10 clearfix">
-                                        <i class="tit fl">促销</i>
-                                        <div class="con fl redmc font16 salesdetcon">
-                                            <div class="salescon">
-                                                <ul class="salesconlist" id="salesconlist">
-                                                    <li class="bordert0 clearfix">
-                                                        <span class="salestit fl">满减</span>
-                                                        <span class="saledes fl">抱枕、帆布袋、T恤满98包邮</span>
-                                                        <a class="packupbtn" href="javascript:;" id="packupbtn"
-                                                            style="display:none;">
-                                                            <span class="packupicon"></span>
-                                                        </a>
-                                                    </li>
-
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li class="clearfix">
-                                        <i class="tit fl">数量</i>
-                                        <div class="numblst clearfix fl">
-                                            <!-- 左侧减号 -->
-                                            <a class="numlbtn DisDe" href="javascript:void(0)">
-                                                <i></i>
-                                            </a>
-                                            <!-- 数量文本框    可以改动，当其改动cookie里的num也要改动 -->
-                                            <input class="nummce" value="1" autocomplete="off" maxlength="3">
-                                            <!-- 右侧加号 -->
-                                            <a class="numrbtn Increase" href="javascript:void(0)">
-                                                <i></i>
-                                            </a>
-                                        </div>
-                                    </li>
-
-                                    <li class="clearfix">
-                                        <i class="tit fl">合计</i>
-                                        <div class="con fl redmc font18 ">
-                                            <strong id="totalPrice">&#165;119.00</strong>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="to-fre-btn mt20">
-                                <!-- 直接购买  跳到结算页面 -->
-                                <a id="btnBuy" class="fl zgbigmon-btn mr20" href="javascript:void(0)">直接购买</a>
-                                <!-- 加入购物车  跳到购物车页面 -->
-                                <a id="btnAdd" class="fl zgbigkxmon-btn" href="javascript:void(0)">加入购物车</a>
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -503,7 +281,6 @@
         </div>
 
         <!-- 学院派详情页 -->
-
         <div class="oneDetapage weepr96">
             <div>
                 <div class="Detapagetit">经典款：给你无拘无束的青春活力</div>
@@ -1219,15 +996,6 @@
         </div> -->
         <!--质检报告end-->
 
-
-        <!-- <div class="weepr880 foot-manual mt20 mb40">
-            <img class="footlogo" src="../images/index/footlogo.png" alt="自个logo" />
-            <p class="Detapagefont colorb9b9b9">自个zigeer·原创设计产品电商平台</p>
-            <p class="Detapagefont colorb9b9b9">网罗全世界的好创意</p>
-            <p class="Detapagefont colorb9b9b9">为用户推荐原创、独特、优质和高性价比的设计师作品</p>
-            <p class="Detapagefont colorb9b9b9">产品包括T恤、卫衣、帆布包、手机壳、台历、明信片等</p>
-            <div class="xqtopbtn" style="display: block;"></div>
-        </div> -->
     </div>
 
     <!--质检弹框滚动-->
@@ -1344,10 +1112,13 @@
     <script>
         require(["../src/libs/require.config"], function () {
             require(["mainJs"]);
+            require(["srStart"]);
+            require(["shopCarStart"]);
+            
         })
     </script>
 
-   
+
 </body>
 
 </html>

@@ -152,9 +152,11 @@ $(function(){
             $.ajax(opt)
             .then(function (res) {
                 console.log(res);
+                window.location.href = "http://localhost:81/bcjs/zigger_wamp2/html/login.html";
             })
         }else{
-            console.log("n");
+            // console.log("n");
+            alert("请重新注册，注册信息不正确");
         }
     })
 })

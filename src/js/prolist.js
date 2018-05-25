@@ -43,6 +43,7 @@ define(['jquery'], function () {
         }
     }
 
+    // tab状态栏切换效果
     function Change(){
         // this.init()
     }
@@ -61,10 +62,6 @@ define(['jquery'], function () {
             $(target).siblings().removeClass("on");     
         }
     }
-
-  
-    
-
 
     // return new Menu();
     // return new Change();

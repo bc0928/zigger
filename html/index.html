@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../css/common.css" />
     <link rel="stylesheet" type="text/css" href="../css/others.css" />
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="../src/libs/swiper.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="../src/libs/swiper.min.css" />
 </head>
 
 <body>
@@ -295,17 +295,10 @@
                     </div>-->
 
                 </div>
-                <!-- <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
-                    <span class="swiper-pagination-bullet"></span>
-                    <span class="swiper-pagination-bullet"></span>
-                    <span class="swiper-pagination-bullet"></span>
-                    <span class="swiper-pagination-bullet"></span>
-                    <span class="swiper-pagination-bullet"></span>
-                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-                </div> -->
+                
                 <!-- swiper-button-disabled -->
-                <div class="swiper-button-prev prevBtn" href="javascript:;"></div>
-                <div class="swiper-button-next nextBtn" href="javascript:;"></div>
+                <!-- <div class="swiper-button-prev prevBtn" href="javascript:;"></div>
+                <div class="swiper-button-next nextBtn" href="javascript:;"></div> -->
             </div>
             <div class="inner1080">
                 <ul class="hotsub adcon clearfix">
@@ -456,6 +449,7 @@
             </div>
         </div>
     </div>
+    <script src="../src/libs/swiper.min.js"></script>
     <script src="../src/libs/require.js"></script>
     <script>
         require(["../src/libs/require.config"], function () {
@@ -463,27 +457,40 @@
             require(["srStart"]);
         })
     </script>
-    <!-- <script src="src/libs/swiper.min.js"></script> -->
-    <!-- <script src="../src/libs/jquery-3.3.1.js"></script>
-    <script src="../src/js/index.js"></script> -->
-    <!-- <script>
+    <script>
         var swiper = new Swiper({
+                autoplay: {
+                    delay: 3000,
+                    stopOnLastSlide: false,
+                    disableOnInteraction: true
+                },
                 el: '.swiper-container',
-                initialSlide: 1,//
+                initialSlide: 1,
                 spaceBetween: 20,
                 slidesPerView: 3,
-                //centeredSlides: true,
+                // centeredSlides: true,
                 slideToClickedSlide: true,
                 grabCursor: true,
+                
                 keyboard: {
                     enabled: true,
+                }
+                /* autoplay: {
+                    delay: 5000,
+                    stopOnLastSlide: false,
+                    disableOnInteraction: true
                 },
+                speed: 300,                            //设置滑动开始到结束的时间默认300
+                slidesPerView: 'auto',                //容器能够同时显示的slides数量默认1
+                loop: 'ture',
+
                 navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
+                    nextEl: '.sale_next',
+                    prevEl: '.sale_prev',
+                } */
+
             });
-        </script> -->
+    </script>
 </body>
 
 </html>

@@ -26,21 +26,31 @@
                 },
                 {
                     "goodsId":"01",
-                    "hotproimagec": "http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/123.59.57.85$20180517142948906139220-yijiakuan-taopirong.jpg",
-                    "hotproimgy": "http://storage.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/123.59.57.85$201805171429532628145f332b8e440edb426cb6c72df142a.jpg",
-                    "normaltitle": "土司人系列之土司宝宝",
+                    "hotproimagec": "../images/index/123.59.57.85$2018041482534076487510.png",
+                    "hotproimgy": "../images/index/123.59.57.85$2018041482137466258795.png",
+                    "normaltitle": "铁臂阿童木",
                     "normalmoney": "79.00",
                     "normaldes": "土司人是以土司为主要设计元素的系列卡通文创品牌。",
-                    "butbtn": "立即购买"
+                    "butbtn": "立即购买",
+                    "detailProImg1": "../images/index/123.59.57.85$2018041482534076487510.png",
+                    "detailProImg2": "../images/index/123.59.57.85$2018041482209500945009-jingdiankuan-1.jpg",
+                    "detailProImg3": "../images/index/123.59.57.85$2018041482108326133206.png",
+                    "detailProImg4": "../images/index/123.59.57.85$2018041482137466258795.png",
+                    "detailProImg5": "../images/index/txuebzt.jpg"
                 },
                 {
                     "goodsId": "02",
-                    "hotproimagec": "http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/123.59.57.85$20180517142528872353005-yijiakuan-taopirong.jpg",
-                    "hotproimgy": "http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/106.75.98.35$201805171425315724c701e0f31a7423787e50ab9e97d72c0.jpg",
-                    "normaltitle": "土司人系列之土司妹妹",
+                    "hotproimagec": "http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/106.75.98.35$20180523135742474420257-gaozhimianPlus-2.jpg",
+                    "hotproimgy": "http://storage.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/123.59.57.85$201805231357448086f74b5b2276947e2977b5525cfadc47b.jpg",
+                    "normaltitle": "弹吉他的太空人",
                     "normalmoney": "79.00",
                     "normaldes": "土司人是以土司为主要设计元素的系列卡通文创品牌。",
-                    "butbtn": "立即购买"
+                    "butbtn": "立即购买",
+                    "detailProImg1": "http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/106.75.98.35$20180523135742474420257-gaozhimianPlus-2.jpg",
+                    "detailProImg2": "../images/index/FFFFFF-gaozhimianPlus-2.png",
+                    "detailProImg3": "http://storage2.zigeer.com/UploadFile/Zigeer/ModelPic/PsEffect/20180516/Old/106.75.98.35$201805231358460950696fc0e17374502a915af5700143618.jpg",
+                    "detailProImg4": "http://storage2.zigeer.com/UploadFile/Zigeer/Work/Image/20180516/300-330/106.75.98.35$20180523134234380323076.png",
+                    "detailProImg5": "../images/index/txuebzt1.jpg"
                 },
                 {
                     "goodsId": "03",
@@ -49,34 +59,54 @@
                     "normaltitle": "土司人系列之土司宝宝",
                     "normalmoney": "119.00",
                     "normaldes": "土司人是以土司为主要设计元素的系列卡通文创品牌。",
-                    "butbtn": "立即购买"
+                    "butbtn": "立即购买",
+                    "detailProImg1": "http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/106.75.98.35$20180517130437931193789-gaozhimianPlus-1.jpg",
+                    "detailProImg2": "http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/106.75.98.35$20180517130437931193789-gaozhimianPlus-1_HL.jpg",
+                    "detailProImg3": "http://storage2.zigeer.com/UploadFile/Zigeer/Work/Image/20180516/300-330/106.75.98.35$20180517130230602303653.png",
+                    "detailProImg4": "http://storage2.zigeer.com/UploadFile/Zigeer/Work/Image/20180516/300-330/106.75.98.35$20180517130315032499467.png",
+                    "detailProImg5": "../images/index/txuebzt1.jpg"
                 },
                 {
                     "goodsId": "04",
-                    "hotproimagec": "http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/123.59.57.85$20180517123217282145163-jingdiankuan-1.jpg",
-                    "hotproimgy": "http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/106.75.98.35$20180517123218226b9b5f707ca7d477db3311e3523dc6735.jpg",
-                    "normaltitle": "小猪佩奇 社会人短袖",
-                    "normalmoney": "99.00",
+                    "hotproimagec": "http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/123.59.57.85$20180524104559402767096-gaozhimianPlus-1.jpg",
+                    "hotproimgy": "http://storage2.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/106.75.98.35$20180524104601971c34a126cd69548a3a7b3b0e752aff266.jpg",
+                    "normaltitle": "猛狗出笼",
+                    "normalmoney": "299.00",
                     "normaldes": "小猪佩奇是一个可爱的但是有些小专横的小猪。她已经五岁了，与她的猪妈妈，猪爸爸，和弟弟乔治生活在一起。社会社会",
-                    "butbtn": "立即购买"
+                    "butbtn": "立即购买",
+                    "detailProImg1": "http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/123.59.57.85$20180524104559402767096-gaozhimianPlus-1.jpg",
+                    "detailProImg2": "../images/index/23283C-gaozhimianPlus-1.png",
+                    "detailProImg3": "http://storage.zigeer.com/UploadFile/Zigeer/ModelPic/PsEffect/20180516/Old/123.59.57.85$20180524104634354a7974b89d6024803ada3c041dafc8e53.jpg",
+                    "detailProImg4": "http://storage.zigeer.com/UploadFile/Zigeer/Work/Image/20180516/300-330/123.59.57.85$20180524104505073876961.png",
+                    "detailProImg5": "../images/index/txuebzt1.jpg"
                 },
                 {
                     "goodsId": "05",
-                    "hotproimagec": "http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180416/Old/106.75.98.35$20180417225739113784272-gaozhimianPlus-1.jpg",
-                    "hotproimgy": "http://storage.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180416/Old/123.59.57.85$2018041722573990971fc210b09d145179e8d477ffae7e130.jpg",
-                    "normaltitle": "限时&托起你的梦想",
+                    "hotproimagec": "http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180401/Old/123.59.57.85$20180408131011339845581-gaozhimianPlus-1.jpg",
+                    "hotproimgy": "http://storage.zigeer.com/UploadFile/Zigeer/Work/Image/20180401/300-330/123.59.57.85$20180408124502523959213.png",
+                    "normaltitle": "艺术革命之风华正茂",
                     "normalmoney": "99.00",
                     "normaldes": "托起你的梦想  Hold your dream up zigeer.com  by Bruce lee",
-                    "butbtn": "立即购买"
+                    "butbtn": "立即购买",
+                    "detailProImg1": "http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180401/Old/123.59.57.85$20180408131011339845581-gaozhimianPlus-1.jpg",
+                    "detailProImg2": "../images/index/23283C-gaozhimianPlus-1.png",
+                    "detailProImg3": "http://storage.zigeer.com/UploadFile/Zigeer/ModelPic/PsEffect/20180401/Old/123.59.57.85$2018040813151599290f8113b6dc24186825b01e7cbced77c.jpg",
+                    "detailProImg4": "http://storage.zigeer.com/UploadFile/Zigeer/Work/Image/20180401/300-330/123.59.57.85$20180408124502523959213.png",
+                    "detailProImg5": "../images/index/txuebzt1.jpg"
                 },
                 {
                     "goodsId": "06",
-                    "hotproimagec": "http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/106.75.98.35$20180517120108113784272-gaozhimianPlus-1.jpg",
-                    "hotproimgy": "http://storage.zigeer.com/UploadFile/Zigeer/Thumb/Image/20180516/Old/123.59.57.85$20180517120110199fd530b9eb3d8407cba100d715648b99a.jpg",
-                    "normaltitle": "燃烧吧脂肪",
+                    "hotproimagec": "http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20170801/500-500/106.75.98.35$20170814171948492783547.png",
+                    "hotproimgy": "http://filing2.zigeer.com/UploadFile/Zigeer/Work/Image/20170801/300-330/106.75.98.35$20170814132818449365688.png",
+                    "normaltitle": "萌宠T-黑背",
                     "normalmoney": "99.00",
                     "normaldes": "",
-                    "butbtn": "立即购买"
+                    "butbtn": "立即购买",
+                    "detailProImg1": "http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20170801/500-500/106.75.98.35$20170814171948492783547.png",
+                    "detailProImg2": "../images/index/FFFFFF-gaozhimianPlus-1.png",
+                    "detailProImg3": "http://storage2.zigeer.com/UploadFile/Zigeer/Product/Image/20170801/Old/106.75.98.35$20170814133446854889714-gaozhimianPlus-1.jpg",
+                    "detailProImg4": "http://filing2.zigeer.com/UploadFile/Zigeer/Work/Image/20170801/300-330/106.75.98.35$20170814132818449365688.png",
+                    "detailProImg5": "../images/index/txuebzt1.jpg"
                 },
                 {
                     "hotproimagec": "http://storage.zigeer.com/UploadFile/Zigeer/Product/Image/20180516/Old/123.59.57.85$2018051694817383833623-gaozhimianPlus-1.jpg",

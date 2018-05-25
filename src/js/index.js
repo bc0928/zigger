@@ -1,7 +1,4 @@
 define(["jquery","mCookie"], function() {
-  
-     
-    
     // 主页导航  zt-box  隐藏菜单显示和隐藏
         function DisShow(selector) {
             $(selector).css({
@@ -94,7 +91,7 @@ define(["jquery","mCookie"], function() {
             render_data() {
                 var html = "";
                 this.json.forEach(function (item) {
-                    html += `<div class="designersubli swiper-slide" style="width:360px;">
+                    html += `<div class="designersubli swiper-slide" style="width:346.667px;">
                             <a class="designersubhead" href="###">
                                 <img class="designerwallimg" src="${item.desingerHeadImg}" alt="自个设计师背景"/>
                                 <div class="designerinfo">
@@ -281,7 +278,7 @@ define(["jquery","mCookie"], function() {
                                     </a>`
                     } else {
                         this.html += `<li class="normalprli" goodsid="${item.goodsId}">
-                                    <a href="#javascript"  goodsid="${item.goodsId}">
+                                    <a href="http://localhost:81/bcjs/zigger_wamp2/html/proList_Detail.html"  goodsid="${item.goodsId}">
                                         <em class="normalimgc"goodsid="${item.goodsId}">
                                             <img class="normalimg hotproimgc" src="${item.hotproimagec}" alt="">
                                             <img class="normalimg hotproimgy" src="${item.hotproimgy}"

@@ -1,12 +1,11 @@
 define(["jquery", "jqueryCookie"], function () {
-
     function mCookie(ele) {
         this.ele = ele;
         if (this.ele.length == 0) return 0;
         this.init();
     }
     mCookie.prototype={
-        constrocter:mCookie,
+        constructor:mCookie,
         init(){
                  $(this.ele).on("click", function (event) {
                      this.id = $(event.target).attr("goodsid");
@@ -37,14 +36,12 @@ define(["jquery", "jqueryCookie"], function () {
                 this.getcookie = JSON.parse(this.getcookie);
                 this.last = this.getcookie.length;
                 this.getcookie.forEach(function (item, index) {
-                    console.log(item.id,this.id );
+                    // console.log(item.id,this.id );
                     // 存过该商品id 则num++
                     if (item.id == this.id) {
                         item.num = item.num + 1;
-
                     } else if (index == this.last - 1) {
-                        console.log(this.opt);
-
+                        // console.log(this.opt);
                         this.getcookie.push(this.opt)
                     }
                 }.bind(this))
@@ -53,30 +50,9 @@ define(["jquery", "jqueryCookie"], function () {
                     expires: 7,
                     path: '/',
                 })
-                console.log(this.goodslistStr); 
+                // console.log(this.goodslistStr); 
             }
-
         }
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
 return mCookie;
-  
-
-
-
-
-
-
 })

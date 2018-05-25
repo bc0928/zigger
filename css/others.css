@@ -238,7 +238,10 @@
 
 .designersubli {
     float: left;
+    width: 346.667px;
+    margin:20px;
 }
+
 
 .swiper-slide {
     position: relative;
@@ -334,6 +337,7 @@
     line-height: 32px;
     color: #96969b;
     background: #fff;
+    width: 301px;
 }
 
 .arrowleft {

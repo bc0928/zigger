@@ -65,7 +65,7 @@ define(["jquery", "jqueryPagination","mCookie"], function() {
                                     </a>`
                 } else {
                     this.html += `<li class="normalprli" goodsid="${item.goodsId}">
-                                    <a href="#javascript"  goodsid="${item.goodsId}">
+                                    <a href="http://localhost:81/bcjs/zigger_wamp2/html/proList_Detail.html"  goodsid="${item.goodsId}">
                                         <em class="normalimgc" goodsid="${item.goodsId}">
                                             <img class="normalimg hotproimgc" src="${item.hotproimagec}" alt="">
                                             <img class="normalimg hotproimgy" src="${item.hotproimgy}"
